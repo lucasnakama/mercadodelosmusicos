@@ -1,0 +1,35 @@
+/*bootstrap en usados.html */
+
+.bootstrapUsados1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 25%;   
+ }
+ 
+ .card-body > img {
+     width: 200px;
+     height: 150px;
+     :hover {
+        transform: scale(1.5,1.5);
+        transition: all .4s ease-in-out;
+    }
+ }
+ 
+
+ /*bootstrap en verpublicacion.html */
+
+
+.div__fotosPublicacion {
+    display: flex;
+    flex-direction: column;
+    img {
+        width: 200px;
+        height: 150px;
+        margin: 2px;
+        padding: 20px;
+        :hover {
+            transform: scale(1.5,1.5);
+            transition: all .4s ease-in-out;
+            }
+    }
+}
+

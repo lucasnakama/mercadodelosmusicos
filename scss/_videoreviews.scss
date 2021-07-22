@@ -1,0 +1,11 @@
+/*reviews*/
+
+.videosReviews {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    iframe {
+        padding: 2px;
+    }
+}
+

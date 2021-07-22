@@ -1,0 +1,43 @@
+/*bootstrap en usados.html */
+.bootstrapUsados1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 25%;
+}
+
+.card-body > img {
+  width: 200px;
+  height: 150px;
+}
+
+.card-body > img:hover {
+  -webkit-transform: scale(1.5, 1.5);
+          transform: scale(1.5, 1.5);
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+/*bootstrap en verpublicacion.html */
+.div__fotosPublicacion > img:hover {
+  -webkit-transform: scale(1.5, 1.5);
+          transform: scale(1.5, 1.5);
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.div__fotosPublicacion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.div__fotosPublicacion > img {
+  width: 200px;
+  height: 150px;
+  margin: 2px;
+  padding: 20px;
+}
+/*# sourceMappingURL=bootstrap.css.map */

@@ -1,0 +1,39 @@
+/*header*/
+.header__titulo .header__logo {
+    flex-direction: row;
+
+}
+
+.header__titulo {
+    color:#000000;
+    display: inline-block;
+    margin:15px;
+    position:relative;
+    font-family:sans-serif;  
+    left: 20%;
+}
+
+.header__logo {
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin:10px;
+    position:relative;   
+}
+
+.header__logo:hover {
+    transform: rotate(45deg);
+}
+
+.social{
+    width: 100px;
+    position:fixed;
+    top:50px;
+    right: 10%; 
+    padding: 5px;
+    img {
+        width: 20px;
+        height: 20px;
+    }  
+}

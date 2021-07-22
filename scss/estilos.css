@@ -1,0 +1,238 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/*header*/
+.header__titulo .header__logo {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.header__titulo {
+  color: #000000;
+  display: inline-block;
+  margin: 15px;
+  position: relative;
+  font-family: sans-serif;
+  left: 20%;
+}
+
+.header__logo {
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  margin: 10px;
+  position: relative;
+}
+
+.header__logo:hover {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.social {
+  width: 100px;
+  position: fixed;
+  top: 50px;
+  right: 10%;
+  padding: 5px;
+}
+
+.social img {
+  width: 20px;
+  height: 20px;
+}
+
+/*body*/
+body {
+  background-color: #ffffff;
+  font-family: 'Big Shoulders Display', cursive;
+  font-size: em;
+}
+
+.main__imagenes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin: 50px;
+}
+
+.main__imagenes img {
+  height: 300px;
+  width: 200px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin: 10px;
+}
+
+.main__imagenes img:hover {
+  -webkit-transform: scale(1.15, 1.15);
+          transform: scale(1.15, 1.15);
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+  z-index: 200;
+}
+
+/*formulario*/
+form {
+  background-color: #a09c9c;
+  color: #000000;
+  padding: 10px;
+  font-family: sans-serif;
+}
+
+fieldset {
+  border-style: none;
+  color: #030303;
+}
+
+label {
+  padding: 2px;
+}
+
+input {
+  margin: 3px;
+}
+
+/*reviews*/
+.videosReviews {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.videosReviews iframe {
+  padding: 2px;
+}
+
+/*bootstrap en usados.html */
+.bootstrapUsados1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 25%;
+}
+
+.card-body > img {
+  width: 200px;
+  height: 150px;
+}
+
+.card-body > img :hover {
+  -webkit-transform: scale(1.5, 1.5);
+          transform: scale(1.5, 1.5);
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+/*bootstrap en verpublicacion.html */
+.div__fotosPublicacion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.div__fotosPublicacion img {
+  width: 200px;
+  height: 150px;
+  margin: 2px;
+  padding: 20px;
+}
+
+.div__fotosPublicacion img :hover {
+  -webkit-transform: scale(1.5, 1.5);
+          transform: scale(1.5, 1.5);
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+/* menuReviews */
+.menuReviews {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.dropdown {
+  display: inline-block;
+  margin: 10px;
+}
+
+/*footer*/
+footer {
+  padding: 50px;
+  background-color: #8d9092;
+  color: #000000;
+}
+
+footer h3 {
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+footer ul {
+  padding: 0;
+  list-style: none;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+footer ul a {
+  color: #000000;
+  text-decoration: none;
+}
+
+/* media */
+@media only screen and (min-width: 320px) {
+  body {
+    background-color: white;
+  }
+  h1 {
+    font-size: 1.5em;
+  }
+}
+
+@media only screen and (min-width: 728px) {
+  body {
+    background-color: #faf9f9;
+  }
+  h1 {
+    font-size: 2.5em;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  body {
+    background-color: #faf9f9;
+  }
+  h1 {
+    font-size: 3em;
+  }
+}
+/*# sourceMappingURL=estilos.css.map */
