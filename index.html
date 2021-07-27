@@ -18,82 +18,97 @@
     <img class="header__logo"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe2PW7rLDSzbPvXzijAqI-mINxfKkUgJ417A&usqp=CAU" width="90px" id="arriba">
     <h1 class="header__titulo">Mercado de los Músicos</h1> 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">Home</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          
-          <a class="navbar-brand" href="reviews.html">Reviews</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-
-          <a class="navbar-brand" href="usados.html">Usados</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-
-          <a class="navbar-brand" href="contacto.html">Contacto</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>  
-
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  INSTRUMENTOS
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="guitarrasElectricas.html">Guitarras Electricas</a></li>
-                  <li><a class="dropdown-item" href="guitarrasAcusticas.html">Guitarras Acústicas</a></li>
-                  <li><a class="dropdown-item" href="guitarrasCriollas.html">Guitarras Criollas</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="baterias.html">Baterías</a></li>
-                  <li><a class="dropdown-item" href="percusion.html">Percusión</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="bajos.html">Bajos</a></li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  EQUIPOS DE AUDIO
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="AmplificadoresGuitarra.html">Amplificadores de Guitarra</a></li>
-                  <li><a class="dropdown-item" href="AmplificadoresBajo.html">Amplificadores De Bajo</a></li>
-                  <li><a class="dropdown-item" href="Parlantes.html">Bafles y Parlantes</a></li>
-                  <li><a class="dropdown-item" href="consolas.html">Consolas</a></li>
-                  <li><a class="dropdown-item" href="placas.html">Placas de Audio</a></li>
-                </ul>
-              </li>
-            </ul>
-          
-            <div class="social">
-              <a href="https://www.facebook.com"><img src="imagenes/facebook.png" alt="facebook"></a>
-              <a href="https://youtube.com"><img src="imagenes/youtube.png" alt="youtube"></a>
-              <a href="https://twitter.com"><img src="imagenes/twitter.png" alt="twitter"></a>
-              <a href="https://instagram.com"><img src="imagenes/instagram.png" alt="instagram"></a>
-            </div>
-          </div>
+      <div class="container-fluid">
+        <a class="navbar-brand"href="index.html" style="font-size:2em;">HOME</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item" style="font-size:1.5em;">
+              <a class="nav-link active" aria-current="page" href="instrumentos.html">Instrumentos</a>
+            </li>
+            <li class="nav-item" style="font-size:1.5em;">
+              <a class="nav-link" href="equiposdeaudio.html">Equipos de Audio</a>
+            </li>
+            <li class="nav-item" style="font-size:1.5em;">
+              <a class="nav-link" href="usados.html">Usados</a>
+            </li>
+            <li class="nav-item" style="font-size:1.5em;">
+              <a class="nav-link" href="reviews.html">Reviews</a>
+            </li>            
+            <li class="nav-item"style="font-size:1.5em;">
+              <a class="nav-link" href="Contacto.html">Consultas</a>
+            </li>
+          </ul>
         </div>
-      </nav>
-</header>    
-        
-    <main>
-      <h2>Productos destacados</h2>
+      </div>
+    </nav>
+  </header>  
+  
+  <section class="anuncios d-flex" style="margin:15px;">
+    <div class="card text-center w-30">
+      <div class="card-header">
+        Cursos Online
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">INSCRIPCION LIMITADA</h5>
+        <p class="card-text">Abierta la inscripción a cursos online de Guitarra para principiantes</p>
+        <a href="https://www.udemy.com/course/super-curso-de-guitarra-practico-para-principiantes/?gclid=CjwKCAjwuvmHBhAxEiwAWAYj-JuvlymQEvbBxTYT6TpKhWh3JCwMtorQI6eXQZISlVhGvecc0InUBhoCNpYQAvD_BwE&matchtype=e&utm_campaign=Guitar_v.NONP_la.ES_cc.LATAM&utm_medium=udemyads&utm_source=adwords&utm_term=_._ag_119372706425_._ad_509360636784_._kw_cursos+de+guitarra+online_._de_c_._dm__._pl__._ti_kwd-3713560094_._li_1000073_._pd__._" class="btn btn-primary">Inscribirse</a>
+      </div>
+      <div class="card-footer text-muted">
+        Hace 2 días
+      </div>
+    </div>
+
+    <div class="card text-center w-30">
+      <div class="card-header">
+        Reviews
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Oportunidad!!! Fender American Stratocaster</h5>
+        <p class="card-text">Fender American Stratocaster usada en excelente estado!</p>
+        <a href="verpublicacion.html" class="btn btn-primary">Ver Oferta</a>
+      </div>
+      <div class="card-footer text-muted">
+        Hace 4 días
+      </div>
+    </div>
+
+    <div class="card text-center w-30">
+      <div class="card-header">
+        Usados
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">NUEVA FENDER STRATOCASTER</h5>
+        <p class="card-text">Escuchá como suena la nueva adquisición Fender Stratocaster Shop Limited Edition 1956</p>
+        <a href="https://www.youtube.com/watch?v=Uzhpwnch7mc" class="btn btn-primary">Ver Review</a>
+      </div>
+      <div class="card-footer text-muted">
+        Hace 2 días
+      </div>
+    </div>
+  </section>
+
+  <main>
+    <h2 class="main__titulo" style="margin: 15px;">Productos destacados</h2>
       <section class="main__multimedia">
         <div class="main__imagenes">
             <img src="imagenes/piano.jpg" alt="piano">
+            <a class="comprar" href="carrito.html" style="text-decoration: none; color: black;">Comprar</a>
             <img src="imagenes/flyingv.jpg" alt="stratocaster2">
+            <a class="comprar" href="carrito.html" style="text-decoration: none; color: black;">Comprar</a>
             <img src="imagenes/gretsch.jpg" alt="gretsch">
+            <a class="comprar" href="carrito.html" style="text-decoration: none; color: black;">Comprar</a>
             <img src="imagenes/precision.jpg" alt="precision">
+            <a class="comprar" href="carrito.html" style="text-decoration: none; color: black;">Comprar</a>
             <img src="imagenes/saxo.jpg" alt="saxo">
+            <a class="comprar" href="carrito.html" style="text-decoration: none; color: black;">Comprar</a>
             <img src="imagenes/violin.jpg" alt="violin">
+            <a class="comprar" href="carrito.html" style="text-decoration: none; color: black;">Comprar</a>
         </div>
       </section>
-    </main>
+  </main>
 
 <footer> 
   <div class="row justify-content-center">
