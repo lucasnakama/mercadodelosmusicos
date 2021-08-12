@@ -44,6 +44,29 @@
             </div>
           </div>
         </nav>
-      </header>      
+      </header>    
+      
+      <form>
+        <h2 class="tituloFieldset">Deja tu consulta</h1><br>
+        <fieldset>    
+            <label for="nombre">Nombre</label>
+            <input name="nombre" type="text" placeholder="Escriba su nombre"><br><br>
+            <label for="apellido">Apellido</label>
+            <input name="apellido" type="text" placeholder="Escriba su apellido" required><br><br>
+            <label for="Teléfono">Teléfono</label>
+            <input name="telefono" type="number" value="telefono" placeholder="1100000000" required><br><br>
+            <label for="mayordDe18">Soy mayor de 18 años</label>
+            <input  name="mayorDe18" type="checkbox"required> <br><br>
+            <label for="mail">Mail</label>
+            <input type="email" required name="mail"> <br><br>
+            <label for="nuevosUsados">Tipo de Instrumentos</label>
+            <input name="nuevosUsados" type="radio" value="nuevos">Nuevos
+            <input name="nuevosUsados" type="radio" value="usados">Usados <br><br>
+            <textarea rows="10" cols="40" placeholder="Dirección de entrega" required></textarea><br><br>
+            <input type="submit" name="enviar" value="Comprar"><br><br>
+            <input type="reset" name="borrar" value="Borrar todo"><br><br>
+        </fieldset>
+     </form>
+      
 </body>
 </html>

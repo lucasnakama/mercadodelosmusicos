@@ -130,7 +130,10 @@ input {
 /*bootstrap en usados.html */
 .bootstrapUsados1 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  width: 25%;
+  width: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .card-body > img {
@@ -185,8 +188,8 @@ input {
 /*footer*/
 footer {
   padding: 50px;
-  background-color: #8d9092;
-  color: #000000;
+  background-color: #4b4b4b;
+  color: #f7f4f4;
 }
 
 footer h3 {
